@@ -1,7 +1,7 @@
 # 2025 Coding Projects
 Code written for personal or academic purposes in 2025; Developed via Youtube tutorials, Self-teaching, or during Computer Science Seminar (2025 Section). 
 
-The files in this repository are sorted into respective project folders, all marked with starting time. Some of the code are either developed by me or code referring to a tutorial; Look to credits or notes for more info. 
+The files in this repository are sorted into respective project folders, all marked with starting time. Some of the code are either developed by me or code referring to a tutorial; Look to credits or notes for more info (if credit isn't given, I probably wrote it). 
 
 ## Project List:
 * **Python** - [pythonPractice](https://github.com/EmperorMurfy/2025CodingProjects/tree/main/pythonPractice) - Written on May 5, 2025
