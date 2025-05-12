@@ -1,0 +1,37 @@
+# Write the lambda average.
+# This lambda should be passed three values and return their average.
+average = lambda x, y, z: (x+y+z) / 3
+print("Average Num: " + str(average(1, 2, 3)))
+print("Average Num: " + str(average(2, 10, 23)))
+
+
+# Write the lambda max.
+# This lambda should be passed two values and return the greater of the two.
+max = lambda x, y: x if x >= y else y
+print("Max Num: " + str(max(1, 2)))
+
+
+# Write the lambda even.
+# This lambda should be passed a number and return true if the parameter is even and false if it’s not.
+even = lambda x: True if x % 2 == 0 else False
+print("Even: " + str(even(3))) # false
+print("Even: " + str(even(2))) # true
+
+
+cars = {"Bronco": 18.7, "Tacoma": 21, "Wrangler": 15, "F-350": 2}
+cars = sorted(cars, key = lambda car: car[1], reverse = True) # reverse for descending order
+print("Cars sorted based on MPG in Descending Order: " + str(cars))
+
+
+states = [{'state': 'Pennsylvania', 'abbreviation': 'PA', 'population': 12800000}, {'state': 'New Jersey', 'abbreviation': 'NJ', 'population': 8882000}, {'state': 'Maryland', 'abbreviation': 'MD', 'population': 6046000}]
+states = sorted(states, key=lambda state: state['abbreviation'])
+print("State by Abbreviation Sorted Alphabetically " + str(states))
+
+
+states = sorted(states, key=lambda state: len(state['state']), reverse = True)
+print("State by Name Length in Descending Order:  " + str(states))
+
+# Note: I renamed states to statesTuples to remove issues with previous declarations
+statesTuples = [('Pennsylvania', 'PA', 12800000), ('New Jersey', 'NJ', 8882000), ('Maryland', 'MD', 6046000)]
+statesTuples = sorted(statesTuples, key = lambda state: state[2])
+print("State by Population in Ascending Order: " + str(statesTuples))
