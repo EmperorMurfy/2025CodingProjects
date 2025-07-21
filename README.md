@@ -5,7 +5,7 @@ The files in this repository are sorted into respective project folders, all mar
 
 ## Project List:
 * **Python** - [pythonPractice](https://github.com/EmperorMurfy/2025CodingProjects/tree/main/pythonPractice) - Written on May 5, 2025
-
+* **HTML/CSS/JS** - [Flipbook](https://github.com/EmperorMurfy/2025CodingProjects/tree/main/Flipbook) - Written on June 30, 2025
 
 
 ## Instructions:
