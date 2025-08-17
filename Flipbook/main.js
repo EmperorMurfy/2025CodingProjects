@@ -1,12 +1,11 @@
 document.addEventListener("DOMContentLoaded", function() {
     // References to DOM Elements
     const book = document.querySelector("#book");
-    const numOfImages = 5; // Set this to your total number of images
-
+    const numOfImages = 5; // Set to total images #
     let currentLocation = 1;
     let maxLocation = numOfImages + 1;
     let papers = [];
-    let isAnimating = false; // Add this at the top with your other variables
+    let isAnimating = false;  
     let flipQueue = [];
 
     // helper func -> file type jpg, png, webq (fallback order)
@@ -415,4 +414,5 @@ document.addEventListener("DOMContentLoaded", function() {
             setTimeout(() => gif.classList.remove('active'), 300); 
         });
     }
+
 });
